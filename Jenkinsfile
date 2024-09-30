@@ -3,7 +3,7 @@ pipeline {
     environment {
         NAMESPACE = 'webapp'
         REPO_URL = 'https://github.com/zyadtarek11/kuberentes_three_tier.git'
-        DOCKER_REGISTRY = 'zyadtarek'  // Your Docker Hub username
+        DOCKER_REGISTRY = 'mohamedmaher77'  // Your Docker Hub username
         registryCredential = 'dockerhub-credentials' // Your Jenkins credentials ID for Docker Hub
     }
     stages {
